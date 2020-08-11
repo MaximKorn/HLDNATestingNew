@@ -3,8 +3,6 @@ package Tests;
 import Models.EventInvitationRequest;
 import Models.User;
 import Steps.*;
-import Steps.LoginStep;
-import Steps.BaseStep;
 
 import static Models.EventInvitationRequest.createEventInvitationRequestFromData;
 import static Models.User.createUserFromData;
@@ -23,6 +21,7 @@ import java.util.Calendar;
 
 import static Utils.UtilsCSV.*;
 import static com.codeborne.selenide.Selenide.open;
+
 
 public class UserTests extends BaseTest {
     CSVReader reader;

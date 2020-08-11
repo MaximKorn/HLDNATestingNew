@@ -14,7 +14,6 @@ import com.opencsv.exceptions.CsvValidationException;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
